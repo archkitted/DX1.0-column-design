@@ -14,6 +14,13 @@
 /* ===== First section starts here===== */
 body{
     font-family: 'Inter', sans-serif;
+
+}
+    img
+{
+    width: 100%;
+    height: 100%;
+
 }
 .firstsection{
     height: 460px;
@@ -47,6 +54,7 @@ span {
     margin-bottom: 20px;
 }
 
+
 .line {
     height: 16px;
     background: var(--main-color);
@@ -64,4 +72,64 @@ span {
     display: flex;
     justify-content: space-evenly;
     padding: 20px 0;
+}
+
+.secondsection {
+    /* border: 3px solid tomato; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+
+    flex-wrap: wrap;
+}
+
+.secondsectionleftdiv {
+    background: var(--gray-color);
+    height: 400px;
+    width: 310px;
+    /* border: 3px solid tomato; */
+    padding: 40px 25px;
+
+}
+.secondsectionleftdiv p {
+    margin-bottom: 25px;
+}
+.secondsectionleftdiv h4{
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+.secondsectionrightdiv {
+    height: 460px;
+    width: 340px;
+    /* border: 3px solid purple; */
+    margin-left: 20px;
+}
+
+.thirdsection{ 
+    /* border: 3px solid tomato; */
+    display: flex;
+    justify-content: center;
+
+
+}
+.thirdsection-leftdiv,
+.thirdsection-rightdiv {
+    height: 460px;
+    width: 340px;
+}
+.thirdsection-leftdiv{
+    /* border: 3px solid black; */
+    background: url(./images/image3.jpg);
+    background-size: cover;
+}
+.thirdsection-rightdiv {
+    /* border: solid purple; */
+    background-color: var(--main-color);
+    padding: 40px 25px;
+}
+.thirdsection-rightdiv p {
+    margin-bottom: 25px;
 }
