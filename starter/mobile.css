@@ -1,9 +1,10 @@
 @media screen and (max-width:600px) {
     
-   /* ===== First section starts here===== */
+
    
    .firstsection {
        height: 520px;
+    
    }
    .firstsection-leftdiv {
        width: 60%;
@@ -27,12 +28,24 @@
    .line { 
     width: 200px;
    }
-/* ===== First section starts here===== */
-
+/* ===== First section ends here===== */
 
 
 .secondsectionrightdiv {
     margin-left: 0;
     margin-top: 30px;
+}
+.thirdsection {
+    flex-direction: column-reverse;
+    background: var( --gray-color);
+}
+
+footer{
+    flex-direction: column;
+    padding: 10px 30px;
+    text-align: center;
+}
+.footericons-container{
+    margin: 10px 0;
 }
 }
